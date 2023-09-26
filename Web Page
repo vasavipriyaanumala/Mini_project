@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(180, 190, 221);
+        }
+        header{
+            background-color:white;
+            color:black;
+            position: fixed;
+            left: 0px;
+            top: 10px;
+            width: 200%;
+            font-size: 20px;
+            height: 100px;
+
+        }
+        footer{
+            background-color: yellow;
+            color: red;
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            width: 250px;
+            font-size: 10px;
+
+        }
+        div{
+        
+        padding-left: 120px;
+
+    }
+        .a1{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            padding-left: 520px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+       
+        #a.hover{
+            color: blue;
+            text-decoration: underline;
+            text-decoration-color: blue;
+        }
+        .x{
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            font-size: 60px;
+            color: rgb(6, 6, 160);
+        }
+        #y{
+            position: absolute;
+            left: 100px;
+            top: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 40px;
+            color: rgb(19, 88, 218);
+            text-shadow: 2px 2px 2px black;
+        }
+      #a{grid-area: a1;}
+        #b{grid-area: b1;}
+        #c{grid-area: c1;}
+        #d{grid-area: d1;}
+        
+
+        .maindiv{
+            display: grid;
+            grid-template-areas: "a1 b1"
+            "c1 d1";
+            /* background-color: bisque; */
+           
+            /* opacity: 0.5; */
+            /* text-align: center;
+            padding:20px;
+            margin:20px;
+            border-radius: 20px; */
+        }
+        div{
+            color:black;
+            background-color: white;
+
+
+        }
+    .xy{
+        width:300px;
+        height:300px;
+        background-color:white;
+        padding:20px;
+        margin:20px;
+        margin-left:55px;
+        border-radius: 20px;
+            border-style: inset;
+            border-color: lightblue;
+            border-width: 12px;
+            box-shadow: 10px 10px 10px black;
+
+        }
+        .yz{
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px black;
+        }
+        #main1{
+            /* background-color:rgba(red, green, blue, 0.5); */
+            /* opacity: 0.5; */
+     
+
+        }
+    </style>
+            
+        </head>
+<body>
+    <div align="center">
+        <header>
+        
+            <i class="fa-solid fa-landmark x"></i>
+            <label id="y">Historical Places</label>
+            <div class="a1">
+            <div id="a">
+                <a href="Day2a.html">Home</a>
+            </div>
+            <div id="b">About us</div>
+            <div id="c">Services</div>
+            <div id="d">Portfolio</div>
+        </div>
+        </header>
+      <div id="main1">
+    <div class="maindiv">
+        <div id="a" class="xy">
+            <img src="https://img.freepik.com/free-photo/mesmerizing-shot-famous-historic-taj-mahal-agra-india_181624-16028.jpg?size=626&ext=jpg&ga=GA1.1.529443642.1680619753&semt=ais" width="250px" height="250px" class="yz"><Lbr><br></Lbr>
+          <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+        </div>
+        <div id="b" class="xy">
+          <img src="https://img.freepik.com/premium-photo/view-red-fort-lahori-gate-during-sunny-summer-day-new-delhi-india_117930-1911.jpg?size=626&ext=jpg&ga=GA1.1.529443642.1680619753&semt=ais" width="250px" height="250px" class="yz"><br><br>
+          <a href="https://en.wikipedia.org/wiki/Red_Fort">Red Fort</a>
+        </div>
+        <div id="c" class="xy">
+          <img src="https://img.freepik.com/premium-photo/amritsar-india-beautiful-view-golden-temple-amritsar_380726-1325.jpg?size=626&ext=jpg&ga=GA1.1.529443642.1680619753&semt=ais" width="250px" height="200px" class="zz">
+          <a href="https://en.wikipedia.org/wiki/Golden_Temple">Golden Temple</a>
+        </div>
+        <div id="d" class="xy">
+          <img src="https://img.freepik.com/free-photo/hawa-mahal-palace-jaipur-india_53876-31311.jpg?w=740&t=st=1695660989~exp=1695661589~hmac=3677cff6a8c1ad1756577f8e2755014037b7bf6169df993971e46dbbd2470450" width="250px" height="200px" class="zz">
+          <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">Hawa Mahal</a>
+</div>
+</div>
+        <footer>Designed and Developed By A.Vasavi Priya</footer>
+    </div>
+      </body>
+  </html>
